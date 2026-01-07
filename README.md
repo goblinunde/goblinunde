@@ -74,8 +74,8 @@
 ### 📊 贡献统计 (Statistics)
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=topmkter&show_icons=true&theme=radical" alt="Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=topmkter&layout=compact&theme=radical" alt="Top Langs" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=topmkter&theme=github_dark" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=topmkter&theme=github_dark" width="48%" />
 </p>
 
 ---
