@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Chen Jinxiang (yyt)</h1>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=topmkter&label=Profile%20views&color=0e75b6&style=flat" alt="topmkter" />
+  <img src="https://komarev.com/ghpvc/?username=goblinunde&label=Profile%20views&color=0e75b6&style=flat" alt="goblinunde" />
   <img src="https://img.shields.io/badge/OS-Fedora%2043-blue?logo=fedora&logoColor=white" alt="Fedora 43" />
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License MIT" />
 </p>
@@ -25,34 +25,34 @@
 
 ### 🛠 Fedora 软件转译工具箱 (Packaging Tools)
 
-作为软件仓库维护者，我主要使用以下工具链：
+作为软件仓库维护者，我主要使用以下工具链进行跨发行版软件迁移：
 
-| 工具名称 | 类型 | 主要用途 | 状态 |
+| 工具名称 | 类型 | 主要用途 | 在 Fedora 中的作用 |
 | :--- | :--- | :--- | :--- |
-| **Alien** | 转换器 | `.deb` ⇄ `.rpm` 直接转换 | 常用 |
-| **FPM** | 打包机 | 多格式打包 (Effing Package Management) | 生产主力 |
-| **Flatpak** | 沙盒 | 解决依赖冲突，跨发行版分发 | 核心适配 |
-| **Distrobox** | 容器 | 在 Fedora 中运行 Ubuntu/Arch 环境进行编译调试 | 环境标配 |
+| **Alien** | 转换器 | `.deb` ⇄ `.rpm` 转换 | 将 Debian 系软件快速引入 Fedora |
+| **FPM** | 打包机 | 多格式打包 (Effing Package Management) | 将源码或二进制一键封装为标准 `.rpm` |
+| **Flatpak** | 沙盒 | 隔离运行环境 | 解决依赖冲突，实现“一次打包，到处运行” |
+| **Distrobox** | 容器 | 运行其他发行版环境 | 在 Fedora 中无缝调用 Ubuntu/Arch 的编译链 |
 
 ---
 
 ### 💻 开发环境与硬件 (System & Hardware)
 
-为了确保转译软件的兼容性，以下是我的主力机配置信息：
+根据 `fastfetch` 实时配置，这是我的主力开发环境：
 
 <details open>
-<summary><b>View My Fastfetch Specs</b></summary>
+<summary><b>点击展开/折叠 硬件详细信息</b></summary>
 <br/>
 
 | 类别 | 详细信息 |
 | :--- | :--- |
 | **OS** | Fedora Linux 43 (Workstation Edition) x86_64 |
 | **Kernel** | Linux 6.17.12-300.fc43.x86_64 |
-| **CPU** | AMD Ryzen 5 6600H (12核心) @ 4.57 GHz |
+| **CPU** | AMD Ryzen 5 6600H (12) @ 4.57 GHz |
 | **GPU** | AMD Radeon 680M [Integrated] |
-| **Memory** | 16GB (LPDDR5) |
+| **Memory** | 16GB LPDDR5 (可用约 14.80 GiB) |
 | **DE/WM** | GNOME 49.2 / Mutter (Wayland) |
-| **Shell** | Zsh 5.9 with 0xProto Nerd Font |
+| **Shell** | Zsh 5.9 (0xProto Nerd Font Mono) |
 | **Terminal** | Ptyxis 49.2 |
 
 </details>
@@ -60,8 +60,6 @@
 ---
 
 ### 🧰 技能与工具 (Skills & Tools)
-
-使用更稳定的图标索引，确保 **Rust**、**Python** 等图标正常展示：
 
 <p align="left">
   <a href="https://skillicons.dev">
@@ -74,8 +72,8 @@
 ### 📊 贡献统计 (Statistics)
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=topmkter&theme=github_dark" width="48%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=topmkter&theme=github_dark" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=goblinunde&show_icons=true&theme=radical&cache_seconds=1800" alt="Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=goblinunde&layout=compact&theme=radical&cache_seconds=1800" alt="Top Langs" width="48%" />
 </p>
 
 ---
@@ -84,11 +82,11 @@
 
 #### 📢 免责声明 (Disclaimer)
 1. **仅限学习交流**: 本仓库发布的软件转译版本（如 `.rpm` 包）仅用于个人学习、研究及 Fedora 系统适配测试。
-2. **无担保责任**: 本人不对软件的稳定性、安全性或因使用此类转译软件造成的任何数据损失负责。安装前请自行评估风险。
-3. **版权归属**: 原软件版权归原作者/公司所有。若相关软件侵犯了您的合法权益，请联系我，我将立即处理。
+2. **无担保责任**: 本人不对软件的稳定性、安全性或因使用此类转译软件造成的任何数据损失负责。
+3. **版权归属**: 原软件版权归原作者/公司所有。若相关软件侵犯了您的合法权益，请邮件联系我，我将立即处理。
 
 #### 📜 软件分享协议 (License)
-本仓库的**配置脚本与文档**遵循 [MIT License](https://opensource.org/licenses/MIT) 开源协议。你可以自由地使用、修改和分发，但请保留原作者署名。
+本仓库的**配置脚本与文档**遵循 [MIT License](https://opensource.org/licenses/MIT) 开源协议。
 
 ---
 
