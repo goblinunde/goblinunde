@@ -72,10 +72,14 @@
 ### 📊 贡献统计 (Statistics)
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=goblinunde&show_icons=true&theme=radical&cache_seconds=1800" alt="Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=goblinunde&layout=compact&theme=radical&cache_seconds=1800" alt="Top Langs" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=topmkter&show_icons=true&theme=transparent&hide_border=true&cache_seconds=1800" alt="Stats" width="48%" />
+  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=topmkter&layout=compact&theme=transparent&hide_border=true&cache_seconds=1800" alt="Top Langs" width="48%" />
 </p>
 
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=topmkter&theme=transparent&hide_border=true" alt="GitHub Streak" width="97%" />
+</p>
 ---
 
 ### ⚖️ 免责声明与协议 (Disclaimer & License)
