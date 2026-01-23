@@ -63,7 +63,7 @@
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=rust,python,js,ts,linux,matlab,pytorch,tensorflow,git,ps,fedora,nix" />
+    <img src="https://skillicons.dev/icons?i=rust,python,js,ts,linux,matlab,pytorch,tensorflow,git,ps,nix" />
   </a>
 </p>
 
