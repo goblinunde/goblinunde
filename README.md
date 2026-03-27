@@ -1,100 +1,200 @@
 <h1 align="center">Hi 👋, I'm Chen Jinxiang (yyt)</h1>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=goblinunde&label=Profile%20views&color=0e75b6&style=flat" alt="goblinunde" />
-  <img src="https://img.shields.io/badge/OS-Fedora%2043-blue?logo=fedora&logoColor=white" alt="Fedora 43" />
-  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License MIT" />
-</p>
-
-<h3 align="center">数学与计算机爱好者 | 专注 Rust、LaTeX 与 偏微分方程 (PDEs)</h3>
-
-<p align="center">
-  目前致力于 <b>Fedora 43 生态下的软件转译与适配</b>，打造一个稳定、高效的个人软件仓库。
-</p>
-
----
-
-### 🚀 关于我 (About Me)
-
-- 🔭 **当前项目**: 专注于 Fedora 系统下的 `.deb` 转 `.rpm` 适配及 [Node.js 数据分析系统](https://github.com/topmkter/data_analysis_system)。
-- 🎓 **学术背景**: 深入学习偏微分方程（PDEs）及物理信息神经网络（PINNs）。
-- 🦀 **技术方向**: 使用 Rust 进行系统级工具开发，追求极致的性能与内存安全。
-- 📫 **联系我**: **goblinundefined1038@gmail.com**
-
----
-
-### 🛠 Fedora 软件转译工具箱 (Packaging Tools)
-
-作为软件仓库维护者，我主要使用以下工具链进行跨发行版软件迁移：
-
-| 工具名称 | 类型 | 主要用途 | 在 Fedora 中的作用 |
-| :--- | :--- | :--- | :--- |
-| **Alien** | 转换器 | `.deb` ⇄ `.rpm` 转换 | 将 Debian 系软件快速引入 Fedora |
-| **FPM** | 打包机 | 多格式打包 (Effing Package Management) | 将源码或二进制一键封装为标准 `.rpm` |
-| **Flatpak** | 沙盒 | 隔离运行环境 | 解决依赖冲突，实现“一次打包，到处运行” |
-| **Distrobox** | 容器 | 运行其他发行版环境 | 在 Fedora 中无缝调用 Ubuntu/Arch 的编译链 |
-
----
-
-### 💻 开发环境与硬件 (System & Hardware)
-
-根据 `fastfetch` 实时配置，这是我的主力开发环境：
-
-<details open>
-<summary><b>点击展开/折叠 硬件详细信息</b></summary>
-<br/>
-
-| 类别 | 详细信息 |
-| :--- | :--- |
-| **OS** | Fedora Linux 43 (Workstation Edition) x86_64 |
-| **Kernel** | Linux 6.17.12-300.fc43.x86_64 |
-| **CPU** | AMD Ryzen 5 6600H (12) @ 4.57 GHz |
-| **GPU** | AMD Radeon 680M [Integrated] |
-| **Memory** | 16GB LPDDR5 (可用约 14.80 GiB) |
-| **DE/WM** | GNOME 49.2 / Mutter (Wayland) |
-| **Shell** | Zsh 5.9 (0xProto Nerd Font Mono) |
-| **Terminal** | Ptyxis 49.2 |
-
-</details>
-
----
-
-### 🧰 技能与工具 (Skills & Tools)
-
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=rust,python,js,ts,linux,matlab,pytorch,tensorflow,git,ps,nix" />
-  </a>
-</p>
-
----
-
-### 📊 贡献统计 (Statistics)
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=topmkter&show_icons=true&theme=transparent&hide_border=true&cache_seconds=1800" alt="Stats" width="48%" />
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=topmkter&layout=compact&theme=transparent&hide_border=true&cache_seconds=1800" alt="Top Langs" width="48%" />
+  <img src="https://komarev.com/ghpvc/?username=goblinunde&label=Profile%20views&color=0e75b6&style=flat" />
+  <img src="https://img.shields.io/badge/OS-Fedora%2043-blue?logo=fedora&logoColor=white" />
+  <img src="https://img.shields.io/badge/Focus-Rust%20%7C%20LaTeX%20%7C%20PDE-green" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=topmkter&theme=transparent&hide_border=true" alt="GitHub Streak" width="97%" />
+  ⚙️ Rust Systems • 📄 LaTeX Engine • 🐧 Linux Tooling • 🧮 PDE Modeling
 </p>
+
+<h3 align="center">
+  Rust System Tooling • LaTeX Engine • PDE-driven Computing
+</h3>
+
+<p align="center">
+  Building tools for mathematics and systems.<br>
+  专注 <b>Rust系统开发 / LaTeX工具链 / Fedora生态 / PDE建模</b>
+</p>
+
 ---
 
-### ⚖️ 免责声明与协议 (Disclaimer & License)
+# 🧭 Engineering Direction
 
-#### 📢 免责声明 (Disclaimer)
-1. **仅限学习交流**: 本仓库发布的软件转译版本（如 `.rpm` 包）仅用于个人学习、研究及 Fedora 系统适配测试。
-2. **无担保责任**: 本人不对软件的稳定性、安全性或因使用此类转译软件造成的任何数据损失负责。
-3. **版权归属**: 原软件版权归原作者/公司所有。若相关软件侵犯了您的合法权益，请邮件联系我，我将立即处理。
+- 🦀 Rust-based system tooling  
+- 📄 LaTeX engine & document systems  
+- 🐧 Linux software ecosystem & packaging  
+- 🧮 Scientific computing (PDE / PINN)  
 
-#### 📜 软件分享协议 (License)
-本仓库的**配置脚本与文档**遵循 [MIT License](https://opensource.org/licenses/MIT) 开源协议。
+---
+
+# 🚀 Featured Projects
+
+> 🧠 Focus: System Tooling / LaTeX Engine / Linux Ecosystem
+
+---
+
+## 🦀 Latex-Ruff（Rust + WASM）
+🔗 https://github.com/goblinunde/Latex-ruff  
+
+高性能 LaTeX 格式化器与 Linter，灵感来自 Ruff  
+
+- Rust 实现核心解析 + Lint 引擎  
+- TypeScript 实现 VSCode 插件  
+- 支持 WASM 构建  
+- 自动对齐 / 缩进 / 引用检查  
+
+**Tech:** Rust / WASM / AST Parsing / LSP  
+👉 **关键词：编译器思想 / 工具链 / 性能优化**
+
+---
+
+## 📄 MathReport（LaTeX 系统工程）
+🔗 https://github.com/goblinunde/mathreport  
+
+面向数学与深度学习研究的 LaTeX 类系统  
+
+- 自研 `.cls` 文件（完整文档体系）  
+- 支持 Book / Notes / Report 三模式  
+- Makefile + 自动化构建系统  
+
+**Tech:** LaTeX / Macro System / Build System  
+👉 **关键词：语言设计 / 排版系统 / 学术工程**
+
+---
+
+## 🐧 Fedora Packaging Toolchain
+
+构建跨发行版软件适配体系  
+
+- `.deb → .rpm` 转换（Alien / FPM）  
+- Flatpak + Distrobox 兼容方案  
+- 维护个人 Fedora 软件仓库  
+
+**Tech:** Linux / Packaging / DevOps  
+👉 **关键词：Linux系统 / 软件分发 / DevOps**
+
+---
+
+## ⚙️ Linux Tooling & Utilities
+
+### 📦 rarlinux-x64
+Rust 封装 Linux 压缩工具  
+👉 支持加密压缩（Fedora适配）
+
+### 🧰 latexcompile
+Shell 实现的 LaTeX 编译工具  
+👉 支持服务器环境自动构建  
+
+**Tech:** Rust / Shell / CLI  
+👉 **关键词：CLI工具 / 自动化 / 系统工程**
+
+---
+
+## 📊 PINN-Solve（AI + PDE）
+🔗 https://github.com/goblinunde  
+
+基于 Physics-Informed Neural Networks 的 PDE 求解探索  
+
+- 结合深度学习与数学建模  
+- 使用神经网络逼近 PDE 解  
+
+**Tech:** PyTorch / PINN / Scientific Computing  
+👉 **关键词：科研工程 / AI / 数学建模**
+
+---
+
+## 🌐 Personal Blog
+🔗 https://goblinunde.github.io  
+
+基于 Astro 构建的技术博客  
+
+- Linux / Fedora  
+- 数学（PDE / 实分析）  
+- 深度学习  
+
+**Tech:** Astro / Svelte / Tailwind  
+👉 **关键词：知识体系 / 技术表达**
+
+---
+
+# 🧠 About Me
+
+- 🔭 Building system-level tools with Rust  
+- 🧠 Designing LaTeX-based document systems  
+- 🧮 Exploring PDE & scientific computing  
+- 🐧 Deep Linux (Fedora) ecosystem user  
+- 📫 goblinundefined1038@gmail.com  
+
+---
+
+# 🛠 Tech Stack
+
+<p>
+  <img src="https://skillicons.dev/icons?i=rust,ts,js,python,linux,matlab,pytorch,tensorflow,git" />
+</p>
+
+---
+
+# ⚙️ System
+
+- Fedora 43 / GNOME / Wayland  
+- Ryzen 5 6600H / Radeon 680M  
+
+---
+
+# 📊 GitHub Stats
+
+<p align="center">
+
+  <picture>
+    <source 
+      srcset="https://github-readme-stats.vercel.app/api?username=goblinunde&show_icons=true&theme=dark&hide_border=true&count_private=true&cache_seconds=86400"
+      media="(prefers-color-scheme: dark)" />
+    <img 
+      src="https://github-readme-stats.vercel.app/api?username=goblinunde&show_icons=true&theme=default&hide_border=true&count_private=true&cache_seconds=86400" 
+      width="48%" />
+  </picture>
+
+  <picture>
+    <source 
+      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=goblinunde&layout=compact&theme=dark&hide_border=true&cache_seconds=86400"
+      media="(prefers-color-scheme: dark)" />
+    <img 
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=goblinunde&layout=compact&theme=default&hide_border=true&cache_seconds=86400" 
+      width="48%" />
+  </picture>
+
+</p>
+
+<p align="center">
+  <img 
+    src="https://streak-stats.demolab.com?user=goblinunde&theme=transparent&hide_border=true" 
+    width="97%" />
+</p>
+
+<p align="center">
+  <img 
+    src="https://github-readme-activity-graph.vercel.app/graph?username=goblinunde&theme=github-compact&hide_border=true" 
+    width="97%" />
+</p>
+
+---
+
+# ⚖️ Disclaimer & License
+
+### 📢 Disclaimer
+- 本仓库内容仅用于学习与研究  
+- 不保证稳定性与安全性  
+- 原软件版权归原作者所有  
+
+### 📜 License
+- MIT License  
 
 ---
 
 <p align="center">
-  <i>"Mathematics is the music of reason."</i><br>
-  感谢访问我的 GitHub！期待与你在 Rust 或 偏微分方程领域碰撞出火花。
+  <i>"Mathematics is the language of structure, and code is its execution."</i>
 </p>
